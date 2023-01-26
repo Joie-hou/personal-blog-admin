@@ -1,0 +1,7 @@
+version: '2'
+services:
+  admin:
+    image: personal-blog-admin
+    restart: always
+    ports:
+      - '8000:8000'
